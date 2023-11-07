@@ -43,9 +43,14 @@ header > div:last-child > button{
     border-radius: 0.3rem;
     margin-left: 0.3rem;
 }
+/* Main */
+main{
+    height: calc(100vh - 150px);
+    background-color: rgba(127,255,212,255);
+}
 /* Footer */
 footer{
-    height: 100px;
+    height: 50px;
     background-color: white;
     display: flex;
     align-items: center;
