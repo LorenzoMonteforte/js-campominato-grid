@@ -62,12 +62,25 @@ main > div{
 }
 
 .cella{
-    height: calc(100% / 10);
-    width: calc(100% / 10);
     border: 1px solid black;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.cella100{
+    height: calc(100% / 10);
+    width: calc(100% / 10);
+}
+
+.cella81{
+    height: calc(100% / 9);
+    width: calc(100% / 9);
+}
+
+.cella49{
+    height: calc(100% / 7);
+    width: calc(100% / 7);
 }
 /* Footer */
 footer{
