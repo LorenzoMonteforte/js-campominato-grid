@@ -47,6 +47,27 @@ header > div:last-child > button{
 main{
     height: calc(100vh - 150px);
     background-color: rgba(127,255,212,255);
+    padding: 1rem 0;
+    display: flex;
+    justify-content: center;
+}
+
+main > div{
+    height: 100%;
+    aspect-ratio: 1;
+    border: 1px solid black;
+    display: none;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.cella{
+    height: calc(100% / 10);
+    width: calc(100% / 10);
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 /* Footer */
 footer{
